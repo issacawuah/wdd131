@@ -1,0 +1,125 @@
+body {
+    display: grid;
+    font-family: 'Dekko', cursive;
+    font-weight: 100;
+    grid-template-columns: auto;
+    grid-template-rows: auto auto auto;
+}
+
+nav {
+    background-color: #000000;
+    text-align: center; 
+    padding:5px ;
+
+}
+
+nav a {
+    color: aliceblue;
+    text-decoration: none; 
+    margin: 50px;
+}
+nav a:hover{
+    color: blue;
+}
+header {
+    background-color:rgb(17, 17, 79);
+    color: white;
+    text-align: start;
+    grid-column: 1px;
+    grid-row: 1px;
+    padding: 0;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+h1 {
+    padding: 10px;
+    text-align:center ;
+}
+ h1 span {
+    color: rgb(146, 81, 81);
+ }
+
+ h2 {
+    text-align: center;
+    border: 1px solid red;
+    background-color: rgba(58, 2, 111, 0.798);
+    color: rgb(241, 243, 245);
+    padding: 5px;
+    border-top-left-radius:10px ;
+    border-top-right-radius: 10px;
+ } 
+ main {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px; 
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 45%;
+} 
+#section1 a { 
+    text-decoration: none;
+    color: hwb(0 40% 24%);
+    
+     
+}
+ 
+
+ 
+.issac{
+    color: orange;
+}
+h2 {
+    color: #f7d0d0;
+}
+
+.profileimage{
+    float: right;
+}
+
+ 
+.ghanaimage {
+    max-width: 100%;
+    height: auto;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+#section1 ul {
+    list-style-type: none; 
+    /* padding: 0;    */
+    text-align: center;
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+#section1 li {
+    margin: 10px 0;      
+}
+
+#section1 a {
+    display: block;       
+    text-decoration: none; 
+    color: blue;         
+}
+
+#section1 a:hover {
+    color: #000000;
+}
