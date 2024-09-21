@@ -121,5 +121,5 @@ footer {
 }
 
 #section1 a:hover {
-    color: #000000;
+    color: hsl(0, 0%, 0%);
 }
