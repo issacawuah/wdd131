@@ -1,4 +1,5 @@
 body {
+    background-color: rgba(234, 236, 236, 0.753);
     font-family: 'Roboto', sans-serif;  
 }
 
@@ -42,12 +43,13 @@ nav ul {
     padding: 10px;  
 }
 figure {
+    
     display: inline-block;  
     margin: 10px;  
     padding: 10px;  
     border-radius: 8px;  
     overflow: hidden;  
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);  
+    box-shadow: 0 4px 8px rgba(202, 196, 196, 0.2);  
     background-color: #fff;  
 }
 
@@ -68,7 +70,7 @@ figure:hover {
 
 footer {
     background: #333;
-    color: #fff;
+    color: #f7efef;
     text-align: center;
     padding: 10px;
     position: relative;
