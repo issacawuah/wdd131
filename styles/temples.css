@@ -1,0 +1,19 @@
+/* the side of a small screen */
+@media (max-width: 768px) {
+   nav ul {
+       flex-direction: column;  
+       padding: 0; 
+   }
+
+   nav a {
+       margin: 10px 0;  
+   }
+
+   .card {
+       grid-template-columns: 1fr; 
+   }
+   
+   header {
+       text-align: center;  
+   }
+}
