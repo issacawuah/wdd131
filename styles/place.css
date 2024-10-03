@@ -1,0 +1,76 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    
+}
+
+.overlay-container {
+    position: relative;
+    text-align: center;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.overlay { 
+    width: 20%;
+    position: absolute;
+    color: white;
+    background-color: rgba(88, 59, 59, 0.527);  
+    border-radius: 9px;
+    border: 5px solid rgba(111, 151, 197, 0.493);
+}
+
+.weather {
+    /* background-color: red; */
+    top: 20px;  
+    left: 20px;  
+}
+
+.info {
+    bottom: 50px; 
+   right: 200px; 
+   
+} 
+
+footer {
+    background: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+header {
+    background-color: rgb(179, 169, 214);
+     height: 90px;
+     border-radius: 4px;
+}
+
+/* h1 {
+    color: #fff;
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    height: 70px;
+} */
+
+
+
+header {
+    width: 100%; /* Full width */
+    text-align: center; /* Center text within the header */
+}
+h1 {
+    margin: 0; /* Remove default margin */
+    padding:20px;
+    
+
+}
+

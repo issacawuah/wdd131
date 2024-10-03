@@ -1,5 +1,5 @@
 body {
-    background-color: rgba(234, 236, 236, 0.753);
+    background-color: rgba(230, 231, 229, 0.178);
     font-family: 'Roboto', sans-serif;  
 }
 
@@ -16,7 +16,8 @@ nav a {
 }
 
 nav a:hover {
-    color: rgb(128, 243, 20);
+    color: rgb(137, 255, 28);
+    cursor: zoom-in;
 }
 
 header { 

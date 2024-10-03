@@ -9,4 +9,4 @@ const current_time = currentDate.toLocaleDateString("en-US", {
     hour12: true
 }) 
 
-document.getElementById("currentyear").innerHTML = current_time;
+document.getElementById("currentyear").innerHTML = current_time; 
