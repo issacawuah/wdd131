@@ -10,3 +10,4 @@ const current_time = currentDate.toLocaleDateString("en-US", {
 }) 
 
 document.getElementById("currentyear").innerHTML = current_time; 
+
