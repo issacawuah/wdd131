@@ -76,10 +76,28 @@ h1 {
 
 /* Ensure there are at least two global variables */
 :root {
-    --primary-color: rgb(179, 169, 214); /* Primary color variable */
-    --secondary-color: rgba(88, 59, 59, 0.527); /* Secondary color variable */
-    --text-color: #ffffff; /* Additional variable for compliance */
+    --main-font-size: 24px; /* Global variable for font size */
+    --icon-size: 50px; /* Global variable for icon size */
+    --icon-url: url('path/to/weather-icon.png'); /* Global variable for icon URL */
 }
+
+.weather-heading {
+    position: relative;
+    font-size: var(--main-font-size); /* Use the variable for font size */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.weather-heading::after {
+    content: '';
+    display: inline-block;
+    width: var(--icon-size); /* Use the variable for icon size */
+    height: var(--icon-size); /* Use the variable for icon size */
+    background-image: var(--icon-url); /* Use the variable for icon URL */
+    background-size: cover; /* Adjusts the image to cover the area */
+    margin-left: 10px; /* Space between heading and icon */
+    vertical-align: middle; /* Aligns icon with text */
+}
+
 
 .overlay::after {
     content: ""; 
