@@ -76,7 +76,7 @@ h1 {
 
 /* Ensure there are at least two global variables */
 :root {
-    --main-font-size: 24px; /* Global variable for font size */
+    --main-font-size: 23px; /* Global variable for font size */
     --icon-size: 50px; /* Global variable for icon size */
     --icon-url: url('path/to/weather-icon.png'); /* Global variable for icon URL */
 }
