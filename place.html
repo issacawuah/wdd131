@@ -1,16 +1,22 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>East Lagon</title>
+    <meta name="description" content="Explore East Lagon, Accra, and its attractions.">
+    <meta name="author" content="Awuah Isaac">
+    <title>Explore East Lagon, Accra</title>
     <link rel="stylesheet" href="styles/place.css">
+    <!-- Google Fonts Example -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=YourFontChoice&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <header>
         <div>
-            <h1>Welcome to Accra</h1>
+            <h1>Welcome to East Lagon, Accra</h1>
         </div>
     </header>
 
@@ -19,18 +25,19 @@
         
         <section class="overlay weather">
             <h2>Weather</h2>
-            <p id="weather-description">Sunny</p>
-            <p>Temperature: <span id="temperature"></span></p>
-            <p>Wind Speed: <span id="wind-speed"></span></p>
-            <p>Wind Chill: <span id="wind-chill"></span></p>
+            <p id="weather-description">Loading...</p>
+            <p>Temperature: <span id="temperature">Loading...</span></p>
+            <p>Wind Speed: <span id="wind-speed">Loading...</span></p>
+            <p>Wind Chill: <span id="wind-chill">Loading...</span></p>
         </section>
-         <section class="overlay info">
-            <h2>Accra DATA</h2>
-            <p>Population: 11002</p>
+        
+        <section class="overlay info">
+            <h2>Accra Data</h2>
+            <p>Population: 1,100,000</p>
             <p>Capital: Accra</p>
             <p>Language: Twi, English</p>
             <p>Currency: Cedis</p>
-            <p>Time Zone: GMTC</p>
+            <p>Time Zone: GMT</p>
             <p>Calling Code: +233</p>
         </section>
     </main>
@@ -39,7 +46,8 @@
         <p>© 2024 🌹 Awuah Isaac 🌹 Republic of Ghana</p>
         <span id="currentyear"></span>
     </footer>
-    <script src="scripts/temples.js"></script> 
-    <script src="scripts/place.js"></script> 
+
+    <script src="scripts/temples.js" defer></script>
+    <script src="scripts/place.js" defer></script>
 </body>
 </html>
