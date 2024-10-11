@@ -74,6 +74,37 @@ h1 {
     }
 }
 
+/* Ensure there are at least two global variables */
+:root {
+    --main-font-size: 23px;
+    --icon-size: 50px; 
+    --icon-url: url('images/wt2.png'); 
+}
+
+.weather-heading {
+    position: relative;
+    font-size: var(--main-font-size);
+    margin-bottom: 20px;
+}
+
+.weather-heading::after {
+    content: '';
+    display: inline-block;
+    width: var(--icon-size);
+    height: var(--icon-size);
+    background-image: var(--icon-url);
+    background-size: cover;
+    margin-left: 10px;
+    vertical-align: middle;
+}
+
+.overlay::after {
+    content: ""; 
+    display: block; 
+    height: 10px; 
+    background-color: rgba(0, 0, 0, 0.5); 
+}
+
 .weather-icon-container {
     position: absolute;
     top: 20px; 
@@ -82,6 +113,6 @@ h1 {
 }
 
 .weather-icon {
-    width: 50px; /* Adjust size as needed */
+    width: var(--icon-size); 
     height: auto; 
 }
