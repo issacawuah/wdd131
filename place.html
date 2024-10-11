@@ -20,6 +20,20 @@
     <main class="overlay-container">
         <img class="image" src="images/Accra.jpeg" alt="Beautiful view of East Lagon">
         
+        <div class="weather-icon-container">
+            <img 
+                src="images/wt2.png" 
+                srcset="
+                    images/wt2.png 300w,
+                    images/wt big.png 600w,
+                    images/et 900.png 900w"
+                sizes="(max-width: 600px) 300px,
+                       (max-width: 900px) 600px,
+                       900px"
+                alt="Weather icon" 
+                class="weather-icon">
+        </div>
+    
         <section class="overlay weather">
             <h2>Weather</h2>
             <p id="weather-description">Sunny</p>
@@ -27,7 +41,7 @@
             <p>Wind Speed: <span id="wind-speed"></span></p>
             <p>Wind Chill: <span id="wind-chill"></span></p>
         </section>
-        
+    
         <section class="overlay info">
             <h2>Accra DATA</h2>
             <p>Population: 1,100,000</p> 
@@ -38,7 +52,7 @@
             <p>Calling Code: +233</p>
         </section>
     </main>
-
+    
     <footer>
         <p>© <span id="currentyear"></span> 🌹 Awuah Isaac 🌹 Republic of Ghana</p>
     </footer>

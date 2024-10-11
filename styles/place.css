@@ -99,9 +99,23 @@ h1 {
 }
 
 
+
 .overlay::after {
     content: ""; 
     display: block; 
     height: 10px; 
     background-color: rgba(0, 0, 0, 0.5); 
+}
+
+
+.weather-icon-container {
+    position: absolute;
+    top: 20px; 
+    right: 20px; 
+    z-index: 1; 
+}
+
+.weather-icon {
+    width: 50px; 
+    height: auto; 
 }
