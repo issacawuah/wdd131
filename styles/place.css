@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif; 
     padding: 20px;
 }
 
@@ -30,7 +30,7 @@ body {
 
 .info {
     bottom: 50px; 
-    right: 20px;  /* Adjusted for better positioning */
+    right: 20px;  
 } 
 
 footer {
@@ -83,5 +83,5 @@ h1 {
     content: ""; 
     display: block; 
     height: 10px; 
-    background-color: rgba(0, 0, 0, 0.5); /* Added a valid color */
+    background-color: rgba(0, 0, 0, 0.5); 
 }
