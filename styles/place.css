@@ -77,7 +77,6 @@ h1 {
 :root {
     --primary-color: rgb(179, 169, 214);
     --secondary-color: rgba(88, 59, 59, 0.527); /* Second variable added */
-    --text-color: #fff; /* Optional third variable for demonstration */
 }
 
 .overlay::after {
