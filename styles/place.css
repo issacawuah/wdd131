@@ -74,40 +74,6 @@ h1 {
     }
 }
 
-/* Ensure there are at least two global variables */
-:root {
-    --main-font-size: 23px; /* Global variable for font size */
-    --icon-size: 50px; /* Global variable for icon size */
-    --icon-url: url('path/to/weather-icon.png'); /* Global variable for icon URL */
-}
-
-.weather-heading {
-    position: relative;
-    font-size: var(--main-font-size); /* Use the variable for font size */
-    margin-bottom: 20px; /* Space below the heading */
-}
-
-.weather-heading::after {
-    content: '';
-    display: inline-block;
-    width: var(--icon-size); /* Use the variable for icon size */
-    height: var(--icon-size); /* Use the variable for icon size */
-    background-image: var(--icon-url); /* Use the variable for icon URL */
-    background-size: cover; /* Adjusts the image to cover the area */
-    margin-left: 10px; /* Space between heading and icon */
-    vertical-align: middle; /* Aligns icon with text */
-}
-
-
-
-.overlay::after {
-    content: ""; 
-    display: block; 
-    height: 10px; 
-    background-color: rgba(0, 0, 0, 0.5); 
-}
-
-
 .weather-icon-container {
     position: absolute;
     top: 20px; 
@@ -116,6 +82,6 @@ h1 {
 }
 
 .weather-icon {
-    width: 50px; 
+    width: 50px; /* Adjust size as needed */
     height: auto; 
 }
