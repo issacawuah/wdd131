@@ -1,0 +1,23 @@
+
+
+ body {
+    font-family: Arial, sans-serif;
+    background-color: #cad2c5;
+    color: #000000;
+    margin: 0;
+    padding: 20px;
+}
+h1 {
+    color: #202325;
+}
+h2 {
+    color: #2980b9;
+}
+.color-scheme {
+    display: flex;
+    justify-content: space-around;
+}
+.color-box {
+    width: 100px;
+    height: 100px;
+}
