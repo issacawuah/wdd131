@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Review Submitted</title>
+    <link rel="stylesheet" href="styles/review.css">
+</head>
+<body>
+    <header>
+        <h1>Thank You for Your Review!</h1>
+    </header>
+    <p>Your review has been submitted successfully.</p>
+    <p>Number of reviews submitted: <span id="reviewCount"></span></p>
+    <footer>
+        <p>&copy; 2024 Product Reviews</p>
+    </footer>
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const count = localStorage.getItem('reviewCount');
+            document.getElementById('reviewCount').textContent = count;
+        });
+    </script>
+</body>
+</html>

@@ -44,6 +44,7 @@ footer {
 }
 
 header {
+    
     background-color: var(--primary-color);
     height: 90px;
     border-radius: 4px;
@@ -115,4 +116,9 @@ h1 {
 .weather-icon {
     width: var(--icon-size); 
     height: auto; 
+}
+ 
+
+header {
+    background-color: #52796f;
 }

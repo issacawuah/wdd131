@@ -1,0 +1,39 @@
+/* Media Queries */
+@media (max-width: 768px) {
+    body {
+        padding: 15px;
+    }
+
+    form {
+        padding: 15px;
+    }
+
+    input[type="submit"] {
+        padding: 12px; /* Slightly larger button for easier tapping */
+    }
+
+    label {
+        margin: 8px 0 4px; /* Adjust spacing for smaller screens */
+    }
+}
+
+@media (max-width: 480px) {
+    header, footer {
+        padding: 8px 0;
+    }
+
+    form {
+        padding: 10px;
+    }
+
+    input[type="text"],
+    input[type="date"],
+    select,
+    textarea {
+        padding: 8px; /* Slightly smaller input fields */
+    }
+
+    input[type="submit"] {
+        width: 100%; /* Full-width button for easier access */
+    }
+}
