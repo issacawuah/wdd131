@@ -16,7 +16,7 @@ nav {
 nav a {
     color: aliceblue;
     text-decoration: none; 
-    margin: 50px;
+    margin: 40px;
 }
 nav a:hover{
     color: blue;
